@@ -1,4 +1,4 @@
-{
+﻿{
   "data": [
 
 ["20180611","A Scalar Projection and Angle-Based Evolutionary Algorithm for Many-Objective Optimization Problems","群智算法","progress/articles/20180611张慧.htm"],
