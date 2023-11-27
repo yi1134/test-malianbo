@@ -1,0 +1,161 @@
+<!DOCTYPE html> <!--招生信息-->
+<html xmlns:wb="http://open.weibo.com/wb">
+    <head>
+    
+    <meta http-equiv="Cache-control" content="no-transform" />
+<meta http-equiv="Cache-control" content="no-siteapp" />
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>马连博的主页</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+         
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?v=20180526">
+        <link rel="stylesheet" type="text/css" href="css/team.css"/>
+        <link rel="stylesheet" type="text/css" href="css/adds.css">
+        <link rel="shortcut icon" type="text/css" href="images/myIco.ico" />
+         
+    	<script src="js/jquery-1.11.2.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="js/mine.js"></script>  
+           
+        <style>
+	
+		body{
+			/*background-image:url(images/bg1.jpg);*/
+			background-color:#7BBDFF;
+		}
+		
+        .underline{
+			text-decoration:underline;
+		}
+		.panel-heading{
+			font-weight:bold;
+		}
+		.right-column-img{
+			padding: 0% 10% 5% 10%;
+		}
+		.mylist li{
+			line-height:20px;
+			padding:1px;
+		}
+		div.WB_widget.WB_follow_ex{
+			width:90px !important;
+			margin-top: 5px !important;
+			margin-bottom:-10px !important;
+		}
+		.follow_text{
+			width:40px !important;
+		}
+		.hidden{
+			display:none;
+		}
+        </style>    
+    </head>
+
+<body id="home" data-spy="scroll" data-target="#myNav" data-offset="50" onLoad="bodyLoad()">
+<nav id="myNav1" class="navbar navbar-inverse navbar-fixed-top">
+<div style="height:86px;width:100%;text-align:center;background-color:#002446" ><img  src="images/logo.png"></div>
+  <div style="border-top:1px solid #FFF" class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand page-scroll" id="index" href=""><span style="font-family:Arial, Helvetica, sans-serif;color:#CCC" ><strong>首页&nbsp;&nbsp; 马连博</strong></span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li style="margin-left:15px"><a id="research" href="" target="_self">科研论文</a></li>  
+        <li style="margin-left:15px"><a id="projectInfo" href="" target="_self">科研项目</a></li>   
+        <li style="margin-left:15px"><a id="team" href="" target="_self">科研团队</a></li>  
+        <li style="margin-left:15px"><a id="progress" href="" target="_self">研究进展</a></li>
+        <li style="margin-left:15px;background-color: #000000"><a id="enrollment" href="" target="_self">招生信息</a></li>
+        <li style="margin-left:15px"><a id="ourjob" href="" target="_self">服务与获奖</a></li>
+      <li style="margin-left:15px" class="dropdown">          
+          <a href="#" class="dropdown-toggle caret-after" data-toggle="dropdown" role="button" aria-expanded="false">会议期刊<span class="caret"></span></a> 
+          <ul class="dropdown-menu" role="menu">           
+            <li><a id="CCFTOPPeriodical" href="" target="_self">CCF TOP期刊</a></li>
+            <li><a id="CCFTOPConference" href="" target="_self">CCF TOP会议</a></li>
+          </ul>
+        </li>       
+         <li style="margin-left:20px" class="dropdown">          
+          <a href="#" class="dropdown-toggle caret-after" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a> 
+          <ul class="dropdown-menu" role="menu">           
+            <li><a href="http://www.neu.edu.cn/" target="_blank">东北大学主页</a></li>
+            <li><a href="http://www.lib.neu.edu.cn/index.html" target="_blank">东北大学图书馆</a></li>
+             <li><a href="http://sc.neu.edu.cn/" target="_blank">东北大学软件学院</a></li>
+             <li><a href="http://www.graduate.neu.edu.cn/" target="_blank">东北大学研究生院</a></li>
+          </ul>
+        </li> 
+         <li style="margin-left:15px"><a id="english" href="" target="_self">English</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<!-- begin container -->
+<div class="container" id="exceptHead" style="margin-top:100px;box-shadow:0px 0px 20px #333333">
+
+ 
+   <div class="row_1" style="padding-top:20px;">
+    
+      <div class="panel panel-info">
+        	<div><h2 class="head">招生信息</h2></div>
+            <div class="panel-body">
+              <p><strong>招生说明：                </strong></p>
+              <p>1：秉着“宁缺毋滥”的原则，欢迎积极进取、富有理想的优秀学生加入我们；</p>
+              <p> 2：建议事先了解一下人工智能、优化算法、复杂网络与大数据分析等研究方向，确认对此感兴趣。欢迎有一定数学基础、软件设计经验的同学加入我们。                </p>
+              <p>&nbsp;</p>
+              <p><strong>方向一：计算智能模型与算法 (生物演化与群体智能、大规模多目标优化与分布式计算、深度神经网络与机器学习)                </strong></p>
+              <p><strong>基本介绍</strong>：通过一定的理论计算工具模拟生物群体的进化机制、人脑的学习机理，构造相应的自然学习与分布式计算模型，设计高效的智能计算方法用于解决大规模、多目标的复杂工程优化计算问题（如大数据、云计算、复杂网络等），一直是人工智能研究的重要途径。我们从基础理论、系统建模、算法设计和应用验证四个层面开展系统性研究，具体包括复杂系统建模，大规模多目标优化算法，深度神经网络模型与算法，协同优化模型与算法，基于机器学习的图像识别处理等。 </p>
+              <p><strong>在研项目</strong>：（1）基于复杂系统层次演化的蜂群优模型及在微网调度中的应用，国家自然科学青年基金，主持；
+                （2）面向有色金属制造行业的复杂生物系统建模与优化方法研究，辽宁省自然科学基金，主持。 </p>
+              <p><strong>招生人数</strong>：每年1-2人 </p>
+              <p>&nbsp;</p>
+              <p><strong>方向二：基于计算智能的复杂网络大数据分析（网络鲁棒性、网络结构检测、网络影响最大化、智能路由，云资源分配调度）</strong></p>
+              <p> <strong>基本介绍</strong>：复杂网络的结构分析是网络科学的基础,用于理解和预测复杂网络的功能与行为。特别地现实中很多社交网络具有动态演化特性,研究社交复杂网络的平衡结index构特性可以为研究网络的动态演化提供理论支撑。我们采用的基本研究思路为将网络问题建模成优化问题,然后结合网络的结构特性设计高效的智能优化算法去求解建模的问题。 </p>
+              <p><strong>项目支持</strong>：（1）多重感应的微生物网络协同模型与优化方法研究，国家自然科学基金面上项目，主持；
+                （2））东北大学软件学院‘青苹果’计划-优秀骨干教师人才计划，东北大学，主持。
+                （3）计算智能与自然学习，教育部高校基本科研业务费专项--国家优秀青年培育项目，主持。</p>
+              <p> <strong>招生人数</strong>：每年1人 </p>
+              <p>&nbsp;</p>
+              <p><strong>方向三：智能制造与系统优化（3D电子打印控制系统、嵌入式数据采集、数字化车间MES系统）                </strong></p>
+              <p><strong>基本介绍</strong>：将智能优化技术、数字化车间智能控制系统、FPGA硬件编程技术、嵌入式控制模块应用至工业工程系统中， 形成成套解决方案，包括3D电子打印控制系统，车间数据采集平台，智能工厂MES系统等。 </p>
+              <p><strong>在研项目</strong>：（1）喷墨制备超细栅电极控制及优化关键技术研发，国家863重点项目子课题（中科院项目），主持；
+                （2）面向3D打印电子器件的纳米金属微滴形貌检测与智能优化，中科院重点实验室开放基金（中科院项目），主持。</p>
+              <p> <strong>招生人数</strong>：每年1人 </p>
+            </div>
+     </div>
+   </div>
+	
+</div>
+
+
+<script  type="text/javascript">
+	document.getElementById("index").href="index.html?v="+Math.random();
+ 　　document.getElementById("research").href="research.html?v="+Math.random();
+	document.getElementById("projectInfo").href="projectInfo.html?v="+Math.random();
+	document.getElementById("team").href="team.html?v="+Math.random();
+	document.getElementById("progress").href="progress.html?v="+Math.random();
+	document.getElementById("enrollment").href="enrollment.html?v="+Math.random();
+	document.getElementById("ourjob").href="ourjob.html?v="+Math.random();
+	document.getElementById("CCFTOPPeriodical").href="CCFTOPPeriodical.html?v="+Math.random();
+	document.getElementById("CCFTOPConference").href="CCFTOPConference.html?v="+Math.random();
+	document.getElementById("english").href="english.html?v="+Math.random();
+</script>
+
+
+</body>
+</html>
