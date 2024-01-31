@@ -21,7 +21,7 @@
 
 ["20231010","美国斯坦福大学发布了2023年全球前2%顶尖科学家榜单（World's Top 2% Scientists 2023）。课题组马连博老师入选2023年度科学影响力排行榜（2023年度科学影响力排行榜）","学术交流","http://faculty.neu.edu.cn/malianbo/zh_CN/article/65231/content/2008.htm#article"],
 
-["20240130","近日，课题组论文“Single-Domain Generalized Predictor for Neural Architecture Search System” 被CCF A类期刊IEEE TC 录用（马连博，康海东，喻果，李清，何强），东北大学软件学院为第一单位，论文为马连博教授指导的博士研究生工作。IEEE Transactions on Computers是IEEE协会计算机系统与结构领域顶刊，中国计算机学会(CCF)推荐为Ａ类期刊，1952创刊，每年录用文章仅160多篇，是计算机专业老牌国际期刊，声誉较高，行业内广受认可。","学术成果","http://www.baidu.com"],
+["20240130","近日，课题组论文“Single-Domain Generalized Predictor for Neural Architecture Search System” 被CCF A类期刊IEEE TC 录用（马连博，康海东，喻果，李清，何强），东北大学软件学院为第一单位，论文为马连博教授指导的博士研究生工作。IEEE Transactions on Computers是IEEE协会计算机系统与结构领域顶刊，中国计算机学会(CCF)推荐为Ａ类期刊，1952创刊，每年录用文章仅160多篇，是计算机专业老牌国际期刊，声誉较高，行业内广受认可。","学术成果","progress/articles/20240130.html"],
 
 ["20230909","课题组（马连博、李楠、耿小玉等）在国际顶级期刊 IEEE Transactions on Evolutionary Computation （IEEE TEVC）发表研究成果，题为“Pareto-wise Ranking Classifier for Multi-objective Evolutionary Neural Architecture Search”，提出了一种高效的Pareto支配关系比较器，用于NAS搜索过程中神经架构性能评估，实验结果表明提出的方法在搜索效率以及预测精度上均优于相关的常规方法。这是软件学院教师首次在该期刊上发表的科研成果。 IEEE Transactions on Evolutionary Computation是智能计算领域国际顶级期刊，中科院一区Top，2023年影响因子为14.3。该期刊每年收录论文约80篇，接受率约10%","学术成果","http://faculty.neu.edu.cn/malianbo/zh_CN/article/65231/content/1987.htm#article"],
 
